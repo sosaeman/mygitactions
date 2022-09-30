@@ -2,7 +2,7 @@ name: Test-Linter
 
 on: 
   push:
-    branches: [test]
+    branches: ["test"]
 
 jobs:
   test-lint:

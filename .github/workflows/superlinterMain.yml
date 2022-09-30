@@ -2,7 +2,7 @@ name: Super-Linter
 
 on:
   pull_request:
-    branches: [master, main, pilot]
+    branches: [master, main]
 jobs:
   super-lint:
     name: Lint code base

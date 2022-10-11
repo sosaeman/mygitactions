@@ -4,7 +4,12 @@
 name: PytestTestEnv
 
 on:
-  workflow_dispatch:
+  push:
+    branches-ignore:
+      -test1
+  pull_request:
+    branches: "pilot"
+
   
 
 jobs:

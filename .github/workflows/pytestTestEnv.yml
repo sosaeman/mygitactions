@@ -4,8 +4,8 @@
 name: PytestTestEnv
 
 on:
-  pull_request:
-    branches: [ "main", "pilot" ]
+  workflow_dispatch:
+  
 
 jobs:
   gitHubActionForPytest:

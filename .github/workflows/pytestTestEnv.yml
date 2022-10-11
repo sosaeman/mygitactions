@@ -6,7 +6,7 @@ name: PytestTestEnv
 on:
   push:
     branches-ignore:
-      -test1
+      - "test1"
   pull_request:
     branches: "pilot"
 

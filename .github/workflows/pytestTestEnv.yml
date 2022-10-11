@@ -4,8 +4,13 @@
 name: PytestTestEnv
 
 on:
+  push:
+    branches-ignore:
+      - "test1"
   pull_request:
-    branches: [ "main", "pilot" ]
+    branches: "pilot"
+
+  
 
 jobs:
   gitHubActionForPytest:

@@ -5,7 +5,7 @@ name: PytestTestEnv
 
 on:
   push:
-    branches: [ "test" ]
+   # branches: [ "test" ]
 
 jobs:
   gitHubActionForPytest:

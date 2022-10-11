@@ -4,7 +4,7 @@
 name: PytestTestEnv
 
 on:
-  push:
+  pull_request:
    # branches: [ "test" ]
 
 jobs:
